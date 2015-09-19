@@ -1,0 +1,12 @@
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\SlimDX.dll
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\SlimDX.pdb
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\SlimDX.xml
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+D:\GitHub\JoyStick\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb

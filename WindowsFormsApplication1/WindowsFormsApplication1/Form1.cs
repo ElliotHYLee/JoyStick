@@ -18,7 +18,6 @@ namespace WindowsFormsApplication1
         SlimDX.DirectInput.Joystick stick;
         Joystick[] Sticks;
         Joystick stick1;
-
         //Thumstick variables.
         int yValue = 0;
         int xValue = 0;
@@ -26,7 +25,7 @@ namespace WindowsFormsApplication1
         int rotationZValue = 0;
         int rotationXValue = 0;
         int rotationYValue = 0;
-
+        bool isFirst= true;
 
         public Form1()
         {
@@ -36,6 +35,7 @@ namespace WindowsFormsApplication1
             stick1 = Sticks[0];
             timer1.Enabled = true;
             timer1.Interval = 1;
+            isFirst = true;
             //Console.WriteLine("here");
             while(true)
             {
@@ -59,23 +59,34 @@ namespace WindowsFormsApplication1
             state = stick.GetCurrentState(); //Gets the state of the joystick
             //Console.WriteLine(state);
             //These are for the thumbstick readings
-            yValue = state.Y;
+            yValue = -state.Y;
             xValue = state.X;
             zValue = state.Z;
             rotationZValue = state.RotationZ;
             rotationXValue = state.RotationY;
             rotationYValue = state.RotationX;
 
-
+            int th = 0;
             int[] z = state.GetSliders();
-            int th = z[0];
-            if (th>=0)
+            th= z[0];
+            if (z[0] == 0 && isFirst)
             {
-                th = 50 - th/2;
-            }else
-            {
-                th = -th / 2 + 50;
+                th = 0;
+                   
             }
+            else
+            {
+                if(isFirst) isFirst = false;
+                if (th >= 0)
+                {
+                    th = 50 - th / 2;
+                }
+                else
+                {
+                    th = -th / 2 + 50;
+                }
+            }
+
 
             Console.Write("thrust = " + th);
             
